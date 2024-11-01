@@ -6,35 +6,74 @@
 
             <Grid>
 
-            <Image Source="fundo1.png"
-                    Aspect="AspectFill"
-                    x:Name="fundo1"/>
+            <HorizontalStackLayout x:Name="fundo1">
+                <Image Source="fundo1.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo1.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo1.png"
+                    Aspect="AspectFill"/>
+            </HorizontalStackLayout>
 
-            <Image Source="fundo2.png"
-                    Aspect="AspectFill"
-                    x:Name="fundo2"/>
+            <HorizontalStackLayout x:Name="fundo2">
+                <Image Source="fundo2.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo2.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo2.png"
+                    Aspect="AspectFill"/>
+            </HorizontalStackLayout>
 
-            <Image Source="fundo3.png"
-                    Aspect="AspectFill"
-                    x:Name="fundo3"/>
+            <HorizontalStackLayout x:Name="fundo3">
+                <Image Source="fundo3.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo3.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo3.png"
+                    Aspect="AspectFill"/>
+            </HorizontalStackLayout>
+            
+            <HorizontalStackLayout x:Name="fundo4">
+                <Image Source="fundo4.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo4.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo4.png"
+                    Aspect="AspectFill"/>
+            </HorizontalStackLayout>
 
-            <Image Source="fundo4.png"
-                    Aspect="AspectFill"
-                    x:Name="fundo4"/>
+            <HorizontalStackLayout x:Name="fundo5">
+                <Image Source="fundo5.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo5.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo5.png"
+                    Aspect="AspectFill"/>
+            </HorizontalStackLayout>
 
-            <Image Source="fundo5.png"
-                    Aspect="AspectFill"
-                    x:Name="fundo5"/>
+            <HorizontalStackLayout x:Name="fundo6">
+                <Image Source="fundo6.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo6.png"
+                    Aspect="AspectFill"/>
+                <Image Source="fundo6.png"
+                    Aspect="AspectFill"/>
+            </HorizontalStackLayout>
 
-            <Image Source="fundo6.png"
-                    Aspect="AspectFill"
-                    x:Name="fundo6"/>
-
-            <Image Source="chao.jpg"
-                     x:Name="Chao"
+            <HorizontalStackLayout x:Name="chao">
+                <Image Source="chao.jpg"
                      Aspect="AspectFill"
                      HeightRequest="100"
                      VerticalOptions="End"/>
+                <Image Source="chao.jpg"
+                     Aspect="AspectFill"
+                     HeightRequest="100"
+                     VerticalOptions="End"/>
+                <Image Source="chao.jpg"
+                     Aspect="AspectFill"
+                     HeightRequest="100"
+                     VerticalOptions="End"/>
+            </HorizontalStackLayout>
              
              </Grid>
 
